@@ -1,0 +1,36 @@
+talking points for project
+
+what do we want to do for wiki? text document?
+POINTS FOR US
+we should begin with design always draw.io or whatever to structure
+
+always committing even if small week by week
+
+constant communication with client and TA
+
+how will we be dividing the content with the other group??
+
+
+CAPSTONE QUESTIONS
+how will we separate content? 
+by grade? 
+how do you want to post your math content? 
+we can generate interactive gasified learning but which subjects would be most important? 
+shall we separate by class? do we want analytics behind the students grades implemented?
+should there be a messaging system for the students to communicate with teacher? 
+database for students and their grades, along with their activity, and maybe times of activity? 
+should some of the content added by teachers be interactive and allow the teachers to ‘build’ the website ex. using little default objects like ‘show answer’ after a question?
+
+what level are we dealing with? school board level or individual school level? by class? what colour scheme should we use for the website portion? are there any themes? fonts? (comic sans)
+
+should we host quizzes on the website and retain the results? what methods of testing would you like functionality for? (MCQ, submit pdf, etc)
+
+what games would you like to see implemented? 
+only quests or perhaps did you have some other varieties of games in mind?
+what subjects should we focus on?
+
+quests are composed of a variety of mini games to decipher clues of an end goal, what do you think about having a ‘mini game library’ of sorts to composed the quest from? This way you can ensure quests are fresh and new while still retaining some familiarity if you will, or if a certain mini game focuses on a concept the class is struggling with, you can put it in the next quest as well.
+
+perhaps we can invent a website where there is teacher login and student login. teacher login allows for creation of a quest and input of specifications while student login allows completion of the quest. the question is, where should the quest go after the teacher inputs the specifications? the quest will appear on the students login. there will be no other information other than a ‘start’ button. (prototype) the students press it and complete their attempt. the grade they receive (could be numerical, alphabetical, or pass/fail) will be stored in the database along with other previous records of theirs. we should also create a visualization component on the teacher page to provide access to these records.
+
+who should create the student accounts? the students themselves or the teacher?
