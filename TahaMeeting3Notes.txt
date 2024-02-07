@@ -1,0 +1,67 @@
+Meeting 3 Notes:
+
+Using unity for game development
+
+- Prototypes created for initial games
+- Expectations have been managed by client
+- Still learning unity - but progressing nicely
+
+- No update/email from github for Johanne
+- 
+
+Ben Franklin Game:
+- Way for question in games to be modified easily 
+- Library of questions that can be chosen for different games
+- CSV file with bank of questions (made by Johanne)
+- Everything being done in excel sheets - uploaded into games once its ready
+- All games based on same sort of questions/question bank
+
+Temple run game:
+- Environment + player set up
+- Unity assets
+- Background gonna change
+- Terrain will stay
+- Character will be a pirate
+- Villain will chase him
+- 2D movement
+- Flappy bird like game
+- As obstacle come - player will have to solve math questions
+- Bonus questions - Gain lives after completing them
+-
+
+Ashton Game:
+- Question  functionality to be added
+- Different difficulty of questions (harder ones will do more damage)
+- Assets can be changed to fit our themes (enemy)
+- 
+
+Client happy with games right now
+
+Client notes:
+- Marian Small - Math teacher 
+- Built a site - payed for by ontario government
+- No quests - but has some games
+- Elon Musk website -> Math tutor built in the website (something to think about for the future)
+
+Things to add to think about for games:
+- Games will be connected directly to other site
+- Quick math games will not be connected (kids can freely practice as much as they want) - like extramath
+- 5-6 or more of quick fire practice questions (math) (like walk the plank)
+- Test for first time they enter site (without practice) - if they pass without issues - move on to next level
+- Quick fire practice questions
+
+- Escape room games (if possible)
+- Go your own way - be creative
+- Walk around the room and click on different objects - answer question related to object - once all questions answered they can move on to next room
+- look good to the kids
+
+Priority:
+1. Regular Games
+2. Extra math type games
+3. Escape rooms
+
+For next meeting:
+- Continue working on these games
+- Come up with more quick fire games
+- Maybe prototype some escape rooms
+- Demarche is important (show how to solve the problems)
