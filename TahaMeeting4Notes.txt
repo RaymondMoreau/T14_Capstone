@@ -1,67 +1,46 @@
-Meeting 3 Notes:
+Client Meeting 4:
+Need to know exactly what needs to be done by the end of this semester
 
-Using unity for game development
+Website:
 
-- Prototypes created for initial games
-- Expectations have been managed by client
-- Still learning unity - but progressing nicely
+Feedback on Taha game:
+- get the ball rolling on quickfire games
+- Add one thing: Time based
 
-- No update/email from github for Johanne
+Feedback on Haris game:
+- Time based - if he gets stuck has to answer question quickly to get out
+- Hits razer blade - goes down a level (make game last longer)
+- Change colour/theme of games 
+
+Keep in mind:
+- Game itself is the skeleton (able to modify it easily)
+
+Feedback on Ashton game:
+- Add one thing: Time based
 - 
 
-Ben Franklin Game:
-- Way for question in games to be modified easily 
-- Library of questions that can be chosen for different games
-- CSV file with bank of questions (made by Johanne)
-- Everything being done in excel sheets - uploaded into games once its ready
-- All games based on same sort of questions/question bank
+Client Favour/Requests:
+- Thing students love most from classcraft -> Random events
+- Random goofy events that the kids have to do during the class time 
+- EX:
+ 	- Speak like old times for the day
+	- If teacher says specific students name -> Get 100 points for class or something
 
-Temple run game:
-- Environment + player set up
-- Unity assets
-- Background gonna change
-- Terrain will stay
-- Character will be a pirate
-- Villain will chase him
-- 2D movement
-- Flappy bird like game
-- As obstacle come - player will have to solve math questions
-- Bonus questions - Gain lives after completing them
--
+- Wheel spinner that chooses a random event (event dissapears once its selected)
 
-Ashton Game:
-- Question  functionality to be added
-- Different difficulty of questions (harder ones will do more damage)
-- Assets can be changed to fit our themes (enemy)
+Client website feedback:
+- Look Gamie and pirate themed
+- Buttons can be nice frames 
+- Nice backgrounds
+- Focus more on design in the summer
+- Johanne will try to make a design of how she wants the website to look
+- Focus more on functionality
+
+- Remember the escape rooms (would be cool)
+- Done in a way to make the student feel like he is in the room (if possible)
+- Focus on games for now
+
+Goals for the Semester:
+- Make website look good
+- Discuss database stuff on our own time
 - 
-
-Client happy with games right now
-
-Client notes:
-- Marian Small - Math teacher 
-- Built a site - payed for by ontario government
-- No quests - but has some games
-- Elon Musk website -> Math tutor built in the website (something to think about for the future)
-
-Things to add to think about for games:
-- Games will be connected directly to other site
-- Quick math games will not be connected (kids can freely practice as much as they want) - like extramath
-- 5-6 or more of quick fire practice questions (math) (like walk the plank)
-- Test for first time they enter site (without practice) - if they pass without issues - move on to next level
-- Quick fire practice questions
-
-- Escape room games (if possible)
-- Go your own way - be creative
-- Walk around the room and click on different objects - answer question related to object - once all questions answered they can move on to next room
-- look good to the kids
-
-Priority:
-1. Regular Games
-2. Extra math type games
-3. Escape rooms
-
-For next meeting:
-- Continue working on these games
-- Come up with more quick fire games
-- Maybe prototype some escape rooms
-- Demarche is important (show how to solve the problems)
