@@ -20,7 +20,7 @@
 
         #content {
             display: flex;
-            height: calc(100vh - 40px); /* Adjusted for the top bar height */
+            height: calc(100vh - 40px);
         }
 
         #sidebar {
@@ -35,30 +35,27 @@
             padding: 15px;
             box-sizing: border-box;
         }
-        /* Apply styling to the sidebar */
         #sidebar {
             width: 20%;
-            background-color: #f4f4f4; /* Light gray background */
+            background-color: #f4f4f4; /* bg */
             padding: 20px;
             box-sizing: border-box;
         }
 
-        /* Style the buttons */
         #sidebar button {
-            display: block; /* Display each button as a block to stack them vertically */
-            width: 100%; /* Make the button take 100% width of its container */
+            display: block;
+            width: 100%;
             padding: 10px;
-            margin-bottom: 10px; /* Add some spacing between buttons */
-            font-size: 16px; /* Increase the font size */
-            background-color: #3498db; /* Blue background color */
-            color: #ffffff; /* White text color */
+            margin-bottom: 10px;
+            font-size: 16px;
+            background-color: #3498db;
+            color: #ffffff;
             border: none;
             cursor: pointer;
         }
 
-        /* Style the button hover effect */
         #sidebar button:hover {
-            background-color: #2980b9; /* Darker blue on hover */
+            background-color: #2980b9; 
         }
     </style>
 </head>
@@ -77,6 +74,7 @@
             <button id="tahaMeet1" data-html="TahaMeeting1.html">Taha Meeting One Notes</button>
             <button id="tahaMeet2" data-html="TahaMeeting2.html">Taha Meeting Two Notes</button>
             <button id="tahaMeet3" data-html="TahaMeeting3.html">Taha Meeting Three Notes</button>
+            <button id="comparisonWebsites" data-html="comparisonWebsites.html">Comparison Websites (Pre-Meeting Five)</button>
         </div>
 
         <div id="main-content">
@@ -85,15 +83,13 @@
     </div>
 
     <script>
-        // Get the main content div element
         var mainContentDiv = document.getElementById('main-content');
-    
-        // Function to load HTML content into the main content div
+
         function loadContent(htmlFile) {
             mainContentDiv.innerHTML = '<object type="text/html" data="' + htmlFile + '" width="100%" height="100%"></object>';
         }
     
-        // Add click event listeners to each button
+        // add one for each button (REQUIRED)
         document.getElementById('projectDetails').addEventListener('click', function() {
             loadContent(this.getAttribute('data-html'));
         });
@@ -115,6 +111,10 @@
         });
     
         document.getElementById('tahaMeet3').addEventListener('click', function() {
+            loadContent(this.getAttribute('data-html'));
+        });
+
+        document.getElementById('comparisonWebsites').addEventListener('click', function() {
             loadContent(this.getAttribute('data-html'));
         });
     </script>
