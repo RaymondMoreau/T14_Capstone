@@ -1,0 +1,56 @@
+Client Meeting 5:
+
+Haris First Game Johanne notes:
+- Likes the game
+
+Second Game:
+- Quickfire game
+- Go through pipes with correct answer
+- Addition, substraction, multiplication, division - for quickfire games - have each quickfire game be available for all categories (+, -, x, /)
+
+Ashton Database:
+- Set up database so we can push questions, etc
+- Can add items to the database from a website
+- Johanne question: able to work on the questions in excel then add it (answer: yes, this is just to hold the items)
+- Should be free service for hosting database site
+
+Taha:
+- 3 multiple choice answers (2 common answers)
+- 
+
+Raymond - Logistic stuff:
+- Should be able to modify game values 
+- Made website for game 
+- Johanne opinion: loves that looked at other websites. Wants website to be different and memorable. Have both sites look the same 
+- Sidenote - Status update on the other team's website
+
+Johanne:
+-  Buttons that are different - buttons used in both sites 
+- In games not as important 
+- Name of site: tried lots of names. (Official name -> Imagine Quest Learning inc. (IQ))
+- Made some backgrounds (would like them to be more cartoonish)
+
+For your site:
+- Really likes organisation with nice colours in the back 
+- Colours that Johanne likes (Purple, blue, greens, ) - Cooler colours - (will send the exact colour names/codes)
+- Send Johanne dimensions fo the words we want on buttons etc. (boxes)
+- With animation - background would be lighter
+- Button that can be used in the games made by Chatgpt
+- Johanne will send everything she worked on 
+- Let her know if there's anything
+
+
+Next Steps/Goals:
+- Move on to stage where we are polishing off, and creating variations of the games
+- One thing with AI art, hard to adjust generated art 
+- Semester coming to an end, have a list of all the things we want Johanne to do during the summer
+- Learn what other team is using for database, etc.
+
+Next Meeting in 2 weeks (March 26)
+
+
+
+
+
+
+
