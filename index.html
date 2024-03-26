@@ -74,6 +74,8 @@
             <button id="tahaMeet1" data-html="TahaMeeting1.html">Taha Meeting One Notes</button>
             <button id="tahaMeet2" data-html="TahaMeeting2.html">Taha Meeting Two Notes</button>
             <button id="tahaMeet3" data-html="TahaMeeting3.html">Taha Meeting Three Notes</button>
+            <button id="tahaMeet4" data-html="TahaMeeting4.html">Taha Meeting Four Notes</button>
+            <button id="tahaMeet5" data-html="TahaMeeting5.html">Taha Meeting Five Notes</button>
             <button id="comparisonWebsites" data-html="comparisonWebsites.html">Comparison Websites (Pre-Meeting Five)</button>
         </div>
 
@@ -111,6 +113,14 @@
         });
     
         document.getElementById('tahaMeet3').addEventListener('click', function() {
+            loadContent(this.getAttribute('data-html'));
+        });
+
+        document.getElementById('tahaMeet4').addEventListener('click', function() {
+            loadContent(this.getAttribute('data-html'));
+        });
+
+        document.getElementById('tahaMeet5').addEventListener('click', function() {
             loadContent(this.getAttribute('data-html'));
         });
 
