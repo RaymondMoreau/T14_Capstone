@@ -1,0 +1,34 @@
+Capstone 7 Meeting:
+
+Raymond Update:
+- Used one of the basic templates for previous meething 
+- Game able to be re-skinned for different purposes
+- Next Challenge: Escape Room
+
+Taha Update:
+- Helped Haris with his game
+- Worked on making code more readable and other back end stuff
+- Nothing visual to present this meeting
+
+Haris Update:
+- Math implementation done
+- Flappy bird: Start and end page to be edited. 
+	- When you get a correct answer, you got to a new "level" 
+	- Need to fix bird movement
+ 	- Client recomendation: Bird flying through answers to level up
+
+- Temple Math run game:
+	- Jump on platform to get the right answer
+	- Same functionality as flappy bird game (level up as they answer questions)
+
+Ashton:
+- Working on database implementation
+- Small issue with firebase compatibility (should not be a big issue)
+
+Team:
+- Upload all completed games 
+- Clean up current github to have up to date code
+
+Client:
+- Made some csv files that she will share with us for our question banks
+- Will make Raymond's designs 
