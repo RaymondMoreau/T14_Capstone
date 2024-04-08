@@ -14,7 +14,7 @@
             box-sizing: border-box;
         }
         header {
-            background-color: #2ecc71;
+            background-color: #8e44ad;
             padding: 20px;
             text-align: center;
         }
@@ -53,13 +53,32 @@
         .game-link {
             text-align: center;
         }
+        .topbar {
+            background-color: #8e44ad;
+            padding: 10px 0;
+            text-align: center;
+            width: 100%;
+        }
+        .topbar a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 20px;
+            font-size: 18px;
+        }
+        .first-boxes {
+            padding-top: 50px;
+        }
     </style>
 </head>
 <body>
     <header>
         <h1>Imagine Quest Games!</h1>
     </header>
-    <section>
+    <div class="topbar">
+        <a href="#">Games</a>
+        <a href="#">Database</a>
+    </div>
+    <section class="first-boxes">
         <div class="box">
             <a href="https://raymondmoreau.github.io/testWebGL/" class="game-link">            
                 <h3>Save Benjamin Franklin!</h3>
@@ -86,12 +105,16 @@
     </section>
     <section>
         <div class="box">
-            <i class="fas fa-plus"></i>
-            <h3>Haris 1</h3>
+            <a href="https://harisvohra11.github.io/TheBirdofMathMountain/" class="game-link">
+                <i class="fas fa-plus"></i>
+                <h3>The Bird of Math Mountain</h3>
+            </a>
         </div>
         <div class="box">
-            <i class="fas fa-minus"></i>
-            <h3>Haris 2</h3>
+            <a href="https://harisvohra11.github.io/MathIslandRun/" class="game-link">
+                <i class="fas fa-minus"></i>
+                <h3>Math Island Run</h3>
+            </a>
         </div>
         <div class="box">
             <i class="fas fa-times"></i>
