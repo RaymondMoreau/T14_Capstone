@@ -30,3 +30,28 @@ Customer Email: seguijoh@ecolecatholique.ca
 
 
 Requirements Elicitation document: https://docs.google.com/document/d/1lpm1Lo1VidqaY0O538MC2VnFUmhQkdjbiDX7Er4HB24/edit?usp=sharing
+
+
+Summary of Winter 2024 semester:
+
+Team Member contribution:
+Taha:
+- Development of games
+- Meeting notes
+
+Issues considered and resolved:
+
+Estimated time spent by each team member:
+All members:
+- appox. 2 hours every 2 weeks for a client meeting
+
+Taha:
+- approx. 5-10 hours on most weeks working on the development of various games
+
+List of documents:
+
+Have you achieved what you planned for the first semester?
+Our goal initially for this semester was to get the functionality of our games done, as well as a website to host the games. Overall, we feel that this semester has been a success in terms of what we wanted to complete. We managed to make a couple games each at least with most if not all the functionality implemented. Furthermore we managed to get a website done to host our games. Finally, we also got a database up and running, which we initially didn't plan for, but it was a big and important step for our project.
+
+What is your plan for the second semester?
+We plan on working throughout the summer semester, during the summer term we would like to continue polishing up our games, mainly on the aesthetic side. As well as polishing up the website and the database. As for the fall semester, which would be the last term for this project. We would like to implement automated integrated testing for all of the components of our system. Which includes the database, the website and potentially our games as well. We would also like to add any extra functionalities that we may not have had the time for in previous semester. Finally, we would like to tie up any loose ends for the completion of our project.
