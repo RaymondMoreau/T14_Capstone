@@ -35,6 +35,7 @@ Requirements Elicitation document: https://docs.google.com/document/d/1lpm1Lo1Vi
 Summary of Winter 2024 semester:
 
 Team Member contribution:
+
 Taha:
 - Development of games
 - Meeting notes
