@@ -43,6 +43,7 @@ Taha:
 Issues considered and resolved:
 
 Estimated time spent by each team member:
+
 All members:
 - appox. 2 hours every 2 weeks for a client meeting
 
