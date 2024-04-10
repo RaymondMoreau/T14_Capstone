@@ -1,134 +1,156 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Team Project - Sample Header</title>
+    <title>Imagine Quest Math Games!</title>
     <style>
         body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-        }
-
-        #top-bar {
-            background-color: #333;
+            background-color: #3498db;
+            font-family: 'Arial', sans-serif;
             color: #fff;
-            padding: 10px;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header {
+            background-color: #8e44ad;
+            padding: 20px;
             text-align: center;
         }
-
-        #content {
+        section {
             display: flex;
-            height: calc(100vh - 40px);
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 30px;
         }
-
-        #sidebar {
-            width: 20%;
-            background-color: #eee;
-            padding: 15px;
-            box-sizing: border-box;
+        .box {
+            width: 180px;
+            height: 180px;
+            background-color: #e74c3c;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            border-radius: 15px;
+            transition: transform 0.3s ease-in-out;
+            margin: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
-
-        #main-content {
-            width: 80%;
-            padding: 15px;
-            box-sizing: border-box;
+        .box:hover {
+            transform: translateY(-10px);
         }
-        #sidebar {
-            width: 20%;
-            background-color: #f4f4f4; /* bg */
-            padding: 20px;
-            box-sizing: border-box;
-        }
-
-        #sidebar button {
-            display: block;
-            width: 100%;
-            padding: 10px;
+        .box i {
+            font-size: 2em;
+            color: #fff;
             margin-bottom: 10px;
-            font-size: 16px;
-            background-color: #3498db;
-            color: #ffffff;
-            border: none;
-            cursor: pointer;
         }
-
-        #sidebar button:hover {
-            background-color: #2980b9; 
+        footer {
+            background-color: #e74c3c;
+            padding: 15px;
+            text-align: center;
+        }
+        .game-link {
+            text-align: center;
+        }
+        .topbar {
+            background-color: #8e44ad;
+            padding: 10px 0;
+            text-align: center;
+            width: 100%;
+        }
+        .topbar a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 20px;
+            font-size: 18px;
+        }
+        .first-boxes {
+            padding-top: 50px;
         }
     </style>
 </head>
-
 <body>
-
-    <div id="top-bar">
-        <h1>Team Project - Sample Header</h1>
+    <header>
+        <h1>Imagine Quest Games!</h1>
+    </header>
+    <div class="topbar">
+        <a href="#">Games</a>
+        <a href="#">Database</a>
     </div>
-
-    <div id="content">
-        <div id="sidebar">
-            <button id="projectDetails" data-html="ProjectDetails.html">General Project Details</button>
-            <button id="firstMeetInquiry" data-html="InquiriesMeeting1.html">Inquiries for Meeting One</button>
-            <button id="ashMeet1" data-html="AshtonMeeting1.html">Ashton Meeting One Notes</button>
-            <button id="tahaMeet1" data-html="TahaMeeting1.html">Taha Meeting One Notes</button>
-            <button id="tahaMeet2" data-html="TahaMeeting2.html">Taha Meeting Two Notes</button>
-            <button id="tahaMeet3" data-html="TahaMeeting3.html">Taha Meeting Three Notes</button>
-            <button id="tahaMeet4" data-html="TahaMeeting4.html">Taha Meeting Four Notes</button>
-            <button id="tahaMeet5" data-html="TahaMeeting5.html">Taha Meeting Five Notes</button>
-            <button id="comparisonWebsites" data-html="comparisonWebsites.html">Comparison Websites (Pre-Meeting Five)</button>
+    <section class="first-boxes">
+        <div class="box">
+            <a href="https://raymondmoreau.github.io/testWebGL/" class="game-link">            
+                <h3>Save Benjamin Franklin!</h3>
+            </a>
         </div>
-
-        <div id="main-content">
-            <p>Click a button on the left to load relevant content! :D</p>
+        <div class="box">
+            <a href="https://tahahoussari.github.io/Walk-The-Plank/" class="game-link">
+                <i class="fas fa-divide"></i>
+                <h3>Walk the Plank</h3>
+            </a>
         </div>
-    </div>
-
-    <script>
-        var mainContentDiv = document.getElementById('main-content');
-
-        function loadContent(htmlFile) {
-            mainContentDiv.innerHTML = '<object type="text/html" data="' + htmlFile + '" width="100%" height="100%"></object>';
-        }
-    
-        // add one for each button (REQUIRED)
-        document.getElementById('projectDetails').addEventListener('click', function() {
-            loadContent(this.getAttribute('data-html'));
-        });
-
-        document.getElementById('firstMeetInquiry').addEventListener('click', function() {
-            loadContent(this.getAttribute('data-html'));
-        });
-
-        document.getElementById('ashMeet1').addEventListener('click', function() {
-            loadContent(this.getAttribute('data-html'));
-        });
-
-        document.getElementById('tahaMeet1').addEventListener('click', function() {
-            loadContent(this.getAttribute('data-html'));
-        });
-    
-        document.getElementById('tahaMeet2').addEventListener('click', function() {
-            loadContent(this.getAttribute('data-html'));
-        });
-    
-        document.getElementById('tahaMeet3').addEventListener('click', function() {
-            loadContent(this.getAttribute('data-html'));
-        });
-
-        document.getElementById('tahaMeet4').addEventListener('click', function() {
-            loadContent(this.getAttribute('data-html'));
-        });
-
-        document.getElementById('tahaMeet5').addEventListener('click', function() {
-            loadContent(this.getAttribute('data-html'));
-        });
-
-        document.getElementById('comparisonWebsites').addEventListener('click', function() {
-            loadContent(this.getAttribute('data-html'));
-        });
-    </script>
-
+        <div class="box">
+            <a href="https://ashton-hagar.github.io/FamiliarFight/" class="game-link">
+                <i class="fas fa-minus"></i>
+                <h3>Familiar Fight!</h3>
+            </a>
+        </div>
+        <div class="box">
+            <a href="https://tahahoussari.github.io/back-to-the-future/" class="game-link">
+                <i class="fas fa-times"></i>
+                <h3>Back to the Future</h3>
+            </a>
+        </div>
+    </section>
+    <section>
+        <div class="box">
+            <a href="https://harisvohra11.github.io/TheBirdofMathMountain/" class="game-link">
+                <i class="fas fa-plus"></i>
+                <h3>The Bird of Math Mountain</h3>
+            </a>
+        </div>
+        <div class="box">
+            <a href="https://harisvohra11.github.io/MathIslandRun/" class="game-link">
+                <i class="fas fa-minus"></i>
+                <h3>Math Island Run</h3>
+            </a>
+        </div>
+        <div class="box">
+            <i class="fas fa-times"></i>
+            <h3>Future Game</h3>
+        </div>
+        <div class="box">
+            <i class="fas fa-divide"></i>
+            <h3>Future Game</h3>
+        </div>
+        
+        <!-- Repeat the above structure for more boxes -->
+        
+    </section>
+    <section>
+        <div class="box">
+            <i class="fas fa-plus"></i>
+            <h3>Future Game</h3>
+        </div>
+        <div class="box">
+            <i class="fas fa-minus"></i>
+            <h3>Future Game</h3>
+        </div>
+        <div class="box">
+            <i class="fas fa-times"></i>
+            <h3>Future Game</h3>
+        </div>
+        <div class="box">
+            <i class="fas fa-divide"></i>
+            <h3>Future Game</h3>
+        </div>
+        
+        <!-- Repeat the above structure for more boxes -->
+        
+    </section>
+    <footer>
+        <p>© 2024 Imagine Quest Learning. All rights reserved.</p>
+    </footer>
 </body>
-
 </html>

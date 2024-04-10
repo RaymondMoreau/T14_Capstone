@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team Project - Sample Header</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        #top-bar {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+
+        #content {
+            display: flex;
+            height: calc(100vh - 40px);
+        }
+
+        #sidebar {
+            width: 20%;
+            background-color: #eee;
+            padding: 15px;
+            box-sizing: border-box;
+        }
+
+        #main-content {
+            width: 80%;
+            padding: 15px;
+            box-sizing: border-box;
+        }
+        #sidebar {
+            width: 20%;
+            background-color: #f4f4f4; /* bg */
+            padding: 20px;
+            box-sizing: border-box;
+        }
+
+        #sidebar button {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            font-size: 16px;
+            background-color: #3498db;
+            color: #ffffff;
+            border: none;
+            cursor: pointer;
+        }
+
+        #sidebar button:hover {
+            background-color: #2980b9; 
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="top-bar">
+        <h1>Team Project - Sample Header</h1>
+    </div>
+
+    <div id="content">
+        <div id="sidebar">
+            <button id="projectDetails" data-html="ProjectDetails.html">General Project Details</button>
+            <button id="firstMeetInquiry" data-html="InquiriesMeeting1.html">Inquiries for Meeting One</button>
+            <button id="ashMeet1" data-html="AshtonMeeting1.html">Ashton Meeting One Notes</button>
+            <button id="tahaMeet1" data-html="TahaMeeting1.html">Taha Meeting One Notes</button>
+            <button id="tahaMeet2" data-html="TahaMeeting2.html">Taha Meeting Two Notes</button>
+            <button id="tahaMeet3" data-html="TahaMeeting3.html">Taha Meeting Three Notes</button>
+            <button id="tahaMeet4" data-html="TahaMeeting4.html">Taha Meeting Four Notes</button>
+            <button id="tahaMeet5" data-html="TahaMeeting5.html">Taha Meeting Five Notes</button>
+            <button id="comparisonWebsites" data-html="comparisonWebsites.html">Comparison Websites (Pre-Meeting Five)</button>
+        </div>
+
+        <div id="main-content">
+            <p>Click a button on the left to load relevant content! :D</p>
+        </div>
+    </div>
+
+    <script>
+        var mainContentDiv = document.getElementById('main-content');
+
+        function loadContent(htmlFile) {
+            mainContentDiv.innerHTML = '<object type="text/html" data="' + htmlFile + '" width="100%" height="100%"></object>';
+        }
+    
+        // add one for each button (REQUIRED)
+        document.getElementById('projectDetails').addEventListener('click', function() {
+            loadContent(this.getAttribute('data-html'));
+        });
+
+        document.getElementById('firstMeetInquiry').addEventListener('click', function() {
+            loadContent(this.getAttribute('data-html'));
+        });
+
+        document.getElementById('ashMeet1').addEventListener('click', function() {
+            loadContent(this.getAttribute('data-html'));
+        });
+
+        document.getElementById('tahaMeet1').addEventListener('click', function() {
+            loadContent(this.getAttribute('data-html'));
+        });
+    
+        document.getElementById('tahaMeet2').addEventListener('click', function() {
+            loadContent(this.getAttribute('data-html'));
+        });
+    
+        document.getElementById('tahaMeet3').addEventListener('click', function() {
+            loadContent(this.getAttribute('data-html'));
+        });
+
+        document.getElementById('tahaMeet4').addEventListener('click', function() {
+            loadContent(this.getAttribute('data-html'));
+        });
+
+        document.getElementById('tahaMeet5').addEventListener('click', function() {
+            loadContent(this.getAttribute('data-html'));
+        });
+
+        document.getElementById('comparisonWebsites').addEventListener('click', function() {
+            loadContent(this.getAttribute('data-html'));
+        });
+    </script>
+
+</body>
+
+</html>
