@@ -40,6 +40,12 @@ Taha:
 - Development of games
 - Meeting notes
 
+Raymond:
+- Frontend
+- Game Development
+- Communications with Client
+- Leadership
+
 Issues considered and resolved:
 
 Estimated time spent by each team member:
@@ -49,6 +55,10 @@ All members:
 
 Taha:
 - approx. 5-10 hours on most weeks working on the development of various games
+
+Raymond:
+- Thrice a day email checking for communications with client
+- 6-8 hours a week working/researching on project technologies and games/frontend
 
 List of documents:
 
