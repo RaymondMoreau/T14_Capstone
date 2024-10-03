@@ -1,0 +1,25 @@
+Second Meeting (Week 2):
+
+Ashton:
+- will be brainstorming ideas and presenting them for next meeting
+- finished the database class so that we can use it in all our games
+
+Raymond:
+- concept art and designs of games
+- games will rely on the same framework as the ben franklin game
+- 
+
+Haris:
+- Fix up some stuff in old games
+- will work on another game or 2 based on Johanne's criteria
+
+Taha:
+- added some features to old game
+- came up with some ideas for some new games
+
+Johanne:
+- Will send us all the games this weekend
+
+Team:
+- Aim to be done the main development by the end of November
+- leave enough time for QA and other testing stuff
