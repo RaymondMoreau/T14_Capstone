@@ -80,6 +80,8 @@
             <button id="tahaMeet6" data-html="TahaMeeting6.html">Taha Meeting Six Notes</button>
             <button id="tahaMeet7" data-html="TahaMeeting7.html">Taha Meeting Seven Notes</button>
             <button id="summary" data-html="summary.html">Term Summary</button>
+            <button id="tahaMeet8" data-html="TahaMeeting8.html">Taha Meeting One Notes (Sem 2)</button>
+            <button id="tahaMeet9" data-html="TahaMeeting9.html">Taha Meeting Two Notes (Sem 2)</button>
         </div>
 
         <div id="main-content">
@@ -140,6 +142,14 @@
         });
 
         document.getElementById('summary').addEventListener('click', function() {
+            loadContent(this.getAttribute('data-html'));
+        });
+
+        document.getElementById('tahaMeet8').addEventListener('click', function() {
+            loadContent(this.getAttribute('data-html'));
+        });
+
+        document.getElementById('tahaMeet9').addEventListener('click', function() {
             loadContent(this.getAttribute('data-html'));
         });
     </script>

@@ -4,10 +4,18 @@
 Updates since last meeting:
 Raymond:
 - Games in mind
+- Concept art
 - Worked on other game
 
-Rest:
-- No updates
+Ashton:
+- Database almost ready
+
+Taha:
+- General updates to former games
+- Planned future games
+
+Haris:
+- Fixing up previous games
 
 Johanne:
 - More specific on games, and on goals of the games
