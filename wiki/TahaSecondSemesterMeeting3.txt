@@ -1,0 +1,36 @@
+Team Meeting 3:
+
+Updates:
+Ashton:
+- Idea for new game: 
+   - Player will have their own base, units that they can deploy to fight enemy units
+   - Different level units (whith equal difficulty questions to be able to deploy units based on level)
+   - once they defeat the enemny they move on to next era
+   - can start at caveman era -> medieval era -> etc. while increasing their score
+- will start developping it for the coming week
+
+Haris:
+- Making some tweaks to his old games
+- made some progress on graphic interface stuff
+- Available to get some new ideas for 1-2 more games
+
+Raymond:
+- Request: started making different version of the Ben game. Will have a story/intro to the game
+   - to cross bog they have to answer math questions
+   - needs some assets
+
+Taha:
+- Started designing new games (Quadradle game)
+- Continue working a Quadradle game
+- Will be working on some QA for the next week for QA presentation
+
+Johanne (client):
+- Got us the bitmoji's
+- Will be sending us some more game ideas
+- Will be sending us question/answer excel spreadsheet
+
+Next Week meeting:
+- 5:30pm
+
+Avatar link:
+https://docs.google.com/document/d/1UvaLkIfOcvjwjFl4z1iE9shtWuctLfjzhDr2xenOAE0/edit 
