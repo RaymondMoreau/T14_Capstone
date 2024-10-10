@@ -82,6 +82,7 @@
             <button id="summary" data-html="summary.html">Term Summary</button>
             <button id="tahaMeet8" data-html="TahaMeeting8.html">Taha Meeting One Notes (Sem 2)</button>
             <button id="tahaMeet9" data-html="TahaMeeting9.html">Taha Meeting Two Notes (Sem 2)</button>
+            <button id="tahaMeet10" data-html="TahaMeeting10.html">Taha Meeting Three Notes (Sem 2)</button>
         </div>
 
         <div id="main-content">
@@ -150,6 +151,10 @@
         });
 
         document.getElementById('tahaMeet9').addEventListener('click', function() {
+            loadContent(this.getAttribute('data-html'));
+        });
+
+        document.getElementById('tahaMeet10').addEventListener('click', function() {
             loadContent(this.getAttribute('data-html'));
         });
     </script>
