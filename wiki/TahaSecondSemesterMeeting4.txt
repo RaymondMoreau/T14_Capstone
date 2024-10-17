@@ -1,0 +1,38 @@
+Client Meeting 4:
+
+Team Updates:
+
+Ashton:
+- 
+
+Haris:
+Game ideas: 
+   - Pizza vs chef game
+   - Subway surfer game
+- Focused on finishing up old games before starting on animations and other stuff
+- 
+
+Raymond:
+-  
+
+Taha:
+- Made some test cases for the walk the plank game
+- Continue developping Quadradle game, added some functionalities. (still have to add a bunch of stuff)
+- Will continue to work on test cases as well as the Quadradle game
+
+Johanne Update:
+- Potentially go in person to see the kids playing/testing the games (talk to other guys about it)
+- Databases
+   - 1st tab = easy formulas, as tabs go on they get harder
+   - Will always be a random number for the variable and...
+   - 4 different int that are gonna be different 
+   - Bunch of different games 
+   - lots of options for the games
+   - Green = int Orange = variable
+   - Randomized
+   - 
+
+   - Game of facteurs
+	- have to find the 2 number that multuiply into the given number
+	- 
+
