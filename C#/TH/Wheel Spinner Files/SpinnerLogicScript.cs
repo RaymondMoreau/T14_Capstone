@@ -4,54 +4,61 @@ using UnityEngine;
 
 public class SpinnerLogicScript : MonoBehaviour //Logic script for the wheel spinner (this game is not fully implemented yet)
 {
-    public float reducer;
-    public float multiplier;
-    bool round1 = false;
-    public bool isStopped = false;
-    
+
+    public float spinSpeed;
+    public float deceleration = 0.5f;
+    private bool isSpinning = false;
+    private float currentSpeed;
+    public string[] prizes;
+    public int numberOfPrizes = 8;
+
     // Start is called before the first frame update
     void Start() 
     {
-        reducer = Random.Range(0.01f, 0.5f);
+        prizes = new string[] { "Prize 1", "Prize 2", "Prize 3", "Prize 4", 
+            "Prize 5", "Prize 6", "Prize 7", "Prize 8" };
+
+
     }
 
     // Update is called once per frame
-    void FixedUpdate() //Determines strength of the spin
+    void Update() //Determines strength of the spin
     {
-        if(Input.GetKey(KeyCode.Space))
-        {
-            Reset();
-        }
+        if (Input.GetKeyDown(KeyCode.Space) && !isSpinning) {
+            StartSpin();
+        }    
 
-        if(multiplier > 0)
+        if (isSpinning)
         {
-            transform.Rotate(Vector3.forward, 1 * multiplier);
-        }
-        else
-        {
-            isStopped = true;
-        }
-
-        if(multiplier <20 && !round1)
-        {
-            multiplier += 0.2f;
-        }
-        else
-        {
-            round1 = true;
-        }
-
-        if(round1 && multiplier > 0)
-        {
-            multiplier -= reducer;
+            SpinWheel();
         }
     }
 
-    private void Reset() //resets all values for a new spin
+    void StartSpin()
     {
-        multiplier = 1;
-        reducer = Random.Range(0.1f, 0.5f);
-        round1 = false;
-        isStopped = false;
+        isSpinning = true;
+        currentSpeed = spinSpeed;
+    }
+
+    void SpinWheel()
+    {
+        transform.Rotate(0, 0, currentSpeed * Time.deltaTime);
+
+        currentSpeed -= deceleration * Time.deltaTime;
+
+        if(currentSpeed <= 0)
+        {
+            currentSpeed = 0;
+            isSpinning=false;
+            DetermineSection();
+        }
+    }
+
+    void DetermineSection()
+    {
+        float angle = transform.eulerAngles.z;
+        int section = Mathf.FloorToInt((angle / 360) * numberOfPrizes);
+
+        Debug.Log("Wheel landed on section: " + (section + 1));
     }
 }
