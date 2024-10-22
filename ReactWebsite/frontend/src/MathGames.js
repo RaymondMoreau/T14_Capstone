@@ -56,20 +56,10 @@ const MathGames = () => {
           </a>
         </div>
         <div className="box">
-          <a
-            href="https://tahahoussari.github.io/Quadradle/"
-            className="game-link"
-          >
-            <h3>Quadradle</h3>
-          </a>
+          <h3>Future Game</h3>
         </div>
         <div className="box">
-          <a
-            href="https://tahahoussari.github.io/WheelSpinner/"
-            className="game-link"
-          >
-            <h3>Wheel Spinner</h3>
-          </a>
+          <h3>Future Game</h3>
         </div>
       </section>
       <section>
