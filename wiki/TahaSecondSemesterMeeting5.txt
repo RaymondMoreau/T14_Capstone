@@ -1,0 +1,25 @@
+Client Meeting 5:
+
+Team Updates:
+
+Ashton:
+- Working on QA presentation stuff
+- Next week: will get started on game stuff
+
+Haris:
+- Wondering if level up type of thing would be good for the games (Answer: absolutely)
+- Next: QA presentation stuff
+
+Raymond:
+- Away during reading week
+- Bug where folder with assets is empty
+- Next: working on mushroom game
+
+Taha:
+- Worked on QA presentation stuff
+- Continued development of Quadradle game and Wheel Spinner game
+- Next week: will polish up those 2 games, and begin working on Pirate ship attack game
+
+Client update (Johanne):
+- Going to demo the games to the kids in person
+- Went through database stuff with Ashton
