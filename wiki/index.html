@@ -1,164 +1,264 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Team Project - Sample Header</title>
     <style>
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-        }
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+      }
 
-        #top-bar {
-            background-color: #333;
-            color: #fff;
-            padding: 10px;
-            text-align: center;
-        }
+      #top-bar {
+        background-color: #333;
+        color: #fff;
+        padding: 10px;
+        text-align: center;
+      }
 
-        #content {
-            display: flex;
-            height: calc(100vh - 40px);
-        }
+      #content {
+        display: flex;
+        height: calc(100vh - 40px);
+      }
 
-        #sidebar {
-            width: 20%;
-            background-color: #eee;
-            padding: 15px;
-            box-sizing: border-box;
-        }
+      #sidebar {
+        width: 20%;
+        background-color: #eee;
+        padding: 15px;
+        box-sizing: border-box;
+      }
 
-        #main-content {
-            width: 80%;
-            padding: 15px;
-            box-sizing: border-box;
-        }
-        #sidebar {
-            width: 20%;
-            background-color: #f4f4f4; /* bg */
-            padding: 20px;
-            box-sizing: border-box;
-        }
+      #main-content {
+        width: 80%;
+        padding: 15px;
+        box-sizing: border-box;
+      }
+      #sidebar {
+        width: 20%;
+        background-color: #f4f4f4; /* bg */
+        padding: 20px;
+        box-sizing: border-box;
+      }
 
-        #sidebar button {
-            display: block;
-            width: 100%;
-            padding: 10px;
-            margin-bottom: 10px;
-            font-size: 16px;
-            background-color: #3498db;
-            color: #ffffff;
-            border: none;
-            cursor: pointer;
-        }
+      #sidebar button {
+        display: block;
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        font-size: 16px;
+        background-color: #3498db;
+        color: #ffffff;
+        border: none;
+        cursor: pointer;
+      }
 
-        #sidebar button:hover {
-            background-color: #2980b9; 
-        }
+      #sidebar button:hover {
+        background-color: #2980b9;
+      }
     </style>
-</head>
+  </head>
 
-<body>
-
+  <body>
     <div id="top-bar">
-        <h1>Imagine Quest Learning Wiki</h1>
+      <h1>Imagine Quest Learning Wiki</h1>
     </div>
 
     <div id="content">
-        <div id="sidebar">
-            <button id="projectDetails" data-html="ProjectDetails.html">General Project Details</button>
-            <button id="firstMeetInquiry" data-html="InquiriesMeeting1.html">Inquiries for Meeting One</button>
-            <button id="ashMeet1" data-html="AshtonMeeting1.html">Ashton Meeting One Notes</button>
-            <button id="tahaMeet1" data-html="TahaMeeting1.html">Taha Meeting One Notes</button>
-            <button id="tahaMeet2" data-html="TahaMeeting2.html">Taha Meeting Two Notes</button>
-            <button id="tahaMeet3" data-html="TahaMeeting3.html">Taha Meeting Three Notes</button>
-            <button id="tahaMeet4" data-html="TahaMeeting4.html">Taha Meeting Four Notes</button>
-            <button id="tahaMeet5" data-html="TahaMeeting5.html">Taha Meeting Five Notes</button>
-            <button id="comparisonWebsites" data-html="comparisonWebsites.html">Comparison Websites (Pre-Meeting Five)</button>
-            <button id="tahaMeet6" data-html="TahaMeeting6.html">Taha Meeting Six Notes</button>
-            <button id="tahaMeet7" data-html="TahaMeeting7.html">Taha Meeting Seven Notes</button>
-            <button id="summary" data-html="summary.html">Term Summary</button>
-            <button id="tahaMeet8" data-html="TahaMeeting8.html">Taha Meeting One Notes (Sem 2)</button>
-            <button id="tahaMeet9" data-html="TahaMeeting9.html">Taha Meeting Two Notes (Sem 2)</button>
-            <button id="tahaMeet10" data-html="TahaMeeting10.html">Taha Meeting Three Notes (Sem 2)</button>
-        </div>
+      <div id="sidebar">
+        <button id="projectDetails" data-html="ProjectDetails.html">
+          General Project Details
+        </button>
+        <button id="firstMeetInquiry" data-html="InquiriesMeeting1.html">
+          Inquiries for Meeting One
+        </button>
+        <button id="ashMeet1" data-html="AshtonMeeting1.html">
+          Ashton Meeting One Notes
+        </button>
+        <button id="tahaMeet1" data-html="TahaMeeting1.html">
+          Taha Meeting One Notes
+        </button>
+        <button id="tahaMeet2" data-html="TahaMeeting2.html">
+          Taha Meeting Two Notes
+        </button>
+        <button id="tahaMeet3" data-html="TahaMeeting3.html">
+          Taha Meeting Three Notes
+        </button>
+        <button id="tahaMeet4" data-html="TahaMeeting4.html">
+          Taha Meeting Four Notes
+        </button>
+        <button id="tahaMeet5" data-html="TahaMeeting5.html">
+          Taha Meeting Five Notes
+        </button>
+        <button id="comparisonWebsites" data-html="comparisonWebsites.html">
+          Comparison Websites (Pre-Meeting Five)
+        </button>
+        <button id="tahaMeet6" data-html="TahaMeeting6.html">
+          Taha Meeting Six Notes
+        </button>
+        <button id="tahaMeet7" data-html="TahaMeeting7.html">
+          Taha Meeting Seven Notes
+        </button>
+        <button id="summary" data-html="summary.html">Term Summary</button>
+        <button id="tahaMeet8" data-html="TahaMeeting8.html">
+          Taha Meeting One Notes (Sem 2)
+        </button>
+        <button id="tahaMeet9" data-html="TahaMeeting9.html">
+          Taha Meeting Two Notes (Sem 2)
+        </button>
+        <button id="tahaMeet10" data-html="TahaMeeting10.html">
+          Taha Meeting Three Notes (Sem 2)
+        </button>
+        <button id="tahaMeet11" data-html="TahaMeeting11.html">
+          Taha Meeting Four Notes (Sem 2)
+        </button>
+        <button id="tahaMeet12" data-html="TahaMeeting12.html">
+          Taha Meeting Five Notes (Sem 2)
+        </button>
+        <button id="tahaMeet13" data-html="TahaMeeting13.html">
+          Taha Meeting Six Notes (Sem 2)
+        </button>
+        <button id="tahaMeet14" data-html="TahaMeeting14.html">
+          Taha Meeting Seven Notes (Sem 2)
+        </button>
+        <button id="tahaMeet15" data-html="TahaMeeting15.html">
+          Taha Meeting Eight Notes (Sem 2)
+        </button>
+      </div>
 
-        <div id="main-content">
-            <p>Click a button on the left to load relevant content! :D</p>
-        </div>
+      <div id="main-content">
+        <p>Click a button on the left to load relevant content! :D</p>
+      </div>
     </div>
 
     <script>
-        var mainContentDiv = document.getElementById('main-content');
+      var mainContentDiv = document.getElementById("main-content");
 
-        function loadContent(htmlFile) {
-            mainContentDiv.innerHTML = '<object type="text/html" data="' + htmlFile + '" width="100%" height="100%"></object>';
-        }
-    
-        // add one for each button (REQUIRED)
-        document.getElementById('projectDetails').addEventListener('click', function() {
-            loadContent(this.getAttribute('data-html'));
-        });
+      function loadContent(htmlFile) {
+        mainContentDiv.innerHTML =
+          '<object type="text/html" data="' +
+          htmlFile +
+          '" width="100%" height="100%"></object>';
+      }
 
-        document.getElementById('firstMeetInquiry').addEventListener('click', function() {
-            loadContent(this.getAttribute('data-html'));
-        });
-
-        document.getElementById('ashMeet1').addEventListener('click', function() {
-            loadContent(this.getAttribute('data-html'));
+      // add one for each button (REQUIRED)
+      document
+        .getElementById("projectDetails")
+        .addEventListener("click", function () {
+          loadContent(this.getAttribute("data-html"));
         });
 
-        document.getElementById('tahaMeet1').addEventListener('click', function() {
-            loadContent(this.getAttribute('data-html'));
-        });
-    
-        document.getElementById('tahaMeet2').addEventListener('click', function() {
-            loadContent(this.getAttribute('data-html'));
-        });
-    
-        document.getElementById('tahaMeet3').addEventListener('click', function() {
-            loadContent(this.getAttribute('data-html'));
+      document
+        .getElementById("firstMeetInquiry")
+        .addEventListener("click", function () {
+          loadContent(this.getAttribute("data-html"));
         });
 
-        document.getElementById('tahaMeet4').addEventListener('click', function() {
-            loadContent(this.getAttribute('data-html'));
+      document
+        .getElementById("ashMeet1")
+        .addEventListener("click", function () {
+          loadContent(this.getAttribute("data-html"));
         });
 
-        document.getElementById('tahaMeet5').addEventListener('click', function() {
-            loadContent(this.getAttribute('data-html'));
+      document
+        .getElementById("tahaMeet1")
+        .addEventListener("click", function () {
+          loadContent(this.getAttribute("data-html"));
         });
 
-        document.getElementById('comparisonWebsites').addEventListener('click', function() {
-            loadContent(this.getAttribute('data-html'));
+      document
+        .getElementById("tahaMeet2")
+        .addEventListener("click", function () {
+          loadContent(this.getAttribute("data-html"));
         });
 
-        document.getElementById('tahaMeet6').addEventListener('click', function() {
-            loadContent(this.getAttribute('data-html'));
+      document
+        .getElementById("tahaMeet3")
+        .addEventListener("click", function () {
+          loadContent(this.getAttribute("data-html"));
         });
 
-        document.getElementById('tahaMeet7').addEventListener('click', function() {
-            loadContent(this.getAttribute('data-html'));
+      document
+        .getElementById("tahaMeet4")
+        .addEventListener("click", function () {
+          loadContent(this.getAttribute("data-html"));
         });
 
-        document.getElementById('summary').addEventListener('click', function() {
-            loadContent(this.getAttribute('data-html'));
+      document
+        .getElementById("tahaMeet5")
+        .addEventListener("click", function () {
+          loadContent(this.getAttribute("data-html"));
         });
 
-        document.getElementById('tahaMeet8').addEventListener('click', function() {
-            loadContent(this.getAttribute('data-html'));
+      document
+        .getElementById("comparisonWebsites")
+        .addEventListener("click", function () {
+          loadContent(this.getAttribute("data-html"));
         });
 
-        document.getElementById('tahaMeet9').addEventListener('click', function() {
-            loadContent(this.getAttribute('data-html'));
+      document
+        .getElementById("tahaMeet6")
+        .addEventListener("click", function () {
+          loadContent(this.getAttribute("data-html"));
         });
 
-        document.getElementById('tahaMeet10').addEventListener('click', function() {
-            loadContent(this.getAttribute('data-html'));
+      document
+        .getElementById("tahaMeet7")
+        .addEventListener("click", function () {
+          loadContent(this.getAttribute("data-html"));
+        });
+
+      document.getElementById("summary").addEventListener("click", function () {
+        loadContent(this.getAttribute("data-html"));
+      });
+
+      document
+        .getElementById("tahaMeet8")
+        .addEventListener("click", function () {
+          loadContent(this.getAttribute("data-html"));
+        });
+
+      document
+        .getElementById("tahaMeet9")
+        .addEventListener("click", function () {
+          loadContent(this.getAttribute("data-html"));
+        });
+
+      document
+        .getElementById("tahaMeet10")
+        .addEventListener("click", function () {
+          loadContent(this.getAttribute("data-html"));
+        });
+
+      document
+        .getElementById("tahaMeet11")
+        .addEventListener("click", function () {
+          loadContent(this.getAttribute("data-html"));
+        });
+
+      document
+        .getElementById("tahaMeet12")
+        .addEventListener("click", function () {
+          loadContent(this.getAttribute("data-html"));
+        });
+
+      document
+        .getElementById("tahaMeet13")
+        .addEventListener("click", function () {
+          loadContent(this.getAttribute("data-html"));
+        });
+
+      document
+        .getElementById("tahaMeet14")
+        .addEventListener("click", function () {
+          loadContent(this.getAttribute("data-html"));
+        });
+
+      document
+        .getElementById("tahaMeet15")
+        .addEventListener("click", function () {
+          loadContent(this.getAttribute("data-html"));
         });
     </script>
-
-</body>
-
+  </body>
 </html>
