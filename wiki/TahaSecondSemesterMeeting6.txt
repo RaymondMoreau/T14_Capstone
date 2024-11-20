@@ -1,0 +1,28 @@
+Client Meeting 6:
+
+Ashton:
+- Preliminary setup for Medieval game
+- Ideally will have sprites for each unit (based on level of difficulty)
+
+Haris:
+- Built logic for second game
+- Note on his game: Correct answer slot doesn't get randomized, but order is different based on level
+	- Should be fine 
+
+Raymond:
+- Pretty much done second
+- will have second protoype on website for next week
+
+Taha:
+- Quadradle and Wheel Spinner game's are done 
+- Will start working on last game this week and next week
+
+QA Presentation to Johanne:
+- Went throught QA presentation/strategy with Johanne
+
+Things to do for Johanne:
+- Find a date to go to the school
+- Find a date to meet in person again
+- End of november/end of december Johanne will make another proposal again
+	- Another group will be taking over our work 
+	- Keep in mind about ease of use and stuff
