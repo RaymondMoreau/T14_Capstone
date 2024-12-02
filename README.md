@@ -30,3 +30,5 @@ Customer Email: seguijoh@ecolecatholique.ca
 
 
 Requirements Elicitation document: https://docs.google.com/document/d/1lpm1Lo1VidqaY0O538MC2VnFUmhQkdjbiDX7Er4HB24/edit?usp=sharing
+
+To access our wiki which contains all of our meeting notes and semester summaries: https://raymondmoreau.github.io/T14_Capstone/wiki/
