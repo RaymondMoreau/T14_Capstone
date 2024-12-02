@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Team Project - Sample Header</title>
+    <title>IMAGINE QUEST LEARNING</title>
     <style>
       body {
         margin: 0;
@@ -126,6 +126,9 @@
         </button>
         <button id="tahaMeet16" data-html="TahaMeeting16.html">
           Taha Meeting nine Notes (Sem 2)
+        </button>
+        <button id="summary2" data-html="summary2.html">
+          Semester 2 summary
         </button>
       </div>
 
@@ -268,6 +271,12 @@
         .addEventListener("click", function () {
           loadContent(this.getAttribute("data-html"));
         });
+
+      document
+      .getElementById("summary2")
+      .addEventListener("click", function () {
+        loadContent(this.getAttribute("data-html"));
+      });
     </script>
   </body>
 </html>
