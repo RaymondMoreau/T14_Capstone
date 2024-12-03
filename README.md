@@ -2,6 +2,8 @@ Team 14's Capstone Project. All software developed for the project will be pushe
 
 Project Outline: Our group will be working on a portion of the 'Math Learning Platform' project specified on the Capstone website. We will be focusing on developing the games which will be used in the client's 'Quests'. Teachers will be able to choose which games to add into their quests and the students will be able to complete them, earning XP for themselves.
 
+** NOTE ** For Medieval Math and Familiar Fight, these games use our database that is not always 100% active. If there games fail to work, please contact us so we can run the database for you. :)
+
 Team members and roles: 
 Raymond Moreau, 300199575, Organization & Communication
 Ashton Hagar, 300197676, Logistics and Framework
