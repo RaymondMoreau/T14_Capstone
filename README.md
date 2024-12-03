@@ -2,13 +2,13 @@ Team 14's Capstone Project. All software developed for the project will be pushe
 
 Project Outline: Our group will be working on a portion of the 'Math Learning Platform' project specified on the Capstone website. We will be focusing on developing the games which will be used in the client's 'Quests'. Teachers will be able to choose which games to add into their quests and the students will be able to complete them, earning XP for themselves.
 
-** NOTE ** For Medieval Math and Familiar Fight, these games use our database that is not always 100% active. If there games fail to work, please contact us so we can run the database for you. :)
+** NOTE ** For Medieval Math and Familiar Fight, these games use our database that is not always 100% active. If there games fail to work, please contact us so we can run the database for you. (emails below)
 
-Team members and roles: 
-Raymond Moreau, 300199575, Organization & Communication
-Ashton Hagar, 300197676, Logistics and Framework
-Haris Vohra, 300174288, Lead Architect
-Taha Houssari, 300175366, Testing & Software QA
+Team members and roles: <br>
+Raymond Moreau, 300199575, Organization & Communication, rmore082@uottawa.ca <br>
+Ashton Hagar, 300197676, Logistics and Framework, ahaga081@uottawa.ca <br>
+Haris Vohra, 300174288, Lead Architect, hvohr093@uottawa.ca<br>
+Taha Houssari, 300175366, Testing & Software QA, thous071@uottawa.ca<br>
 
 Objectives: We want to develop a library of functional games that the client can use in her Quests that she publishes to her students. We want to host a database to track the students progress along the games and Quests. We will develop a minimal (can be expanded if extra time) front-end for hosting these games where they will be accessible from.
 
