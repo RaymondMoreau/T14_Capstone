@@ -10,6 +10,8 @@ Ashton Hagar, 300197676, Logistics and Framework, ahaga081@uottawa.ca <br>
 Haris Vohra, 300174288, Lead Architect, hvohr093@uottawa.ca<br>
 Taha Houssari, 300175366, Testing & Software QA, thous071@uottawa.ca<br>
 
+For individual game repositories, consult the Second Semester Summary on the Wiki.
+
 Objectives: We want to develop a library of functional games that the client can use in her Quests that she publishes to her students. We want to host a database to track the students progress along the games and Quests. We will develop a minimal (can be expanded if extra time) front-end for hosting these games where they will be accessible from.
 
 The benefit of the completion of this project to the client, Mme. Séguin, would be a potential business opportunity to capitalize on an undersaturated online math-game learning experience that teachers and students will love.
